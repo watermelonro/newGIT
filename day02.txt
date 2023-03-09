@@ -76,3 +76,17 @@ git으로 버전관리하기
 
         파일 이름 자리에 *을 사용하면 모든을 의미한다. 
         (git add *)
+
+    전역(전체영역) git 사용자 계정 정보 입력하기
+        git config --global user.name "닉네임"
+            닉네임 설정
+        git config --global user.email "이메일주소"
+            이메일 설정
+    
+    작업공간 내의 git 사용자 계정 정보 입력(입력 안 되어있으면 전역에 입력된 닉네임과 이메일 따라간다.)
+        git config user.name "닉네임"
+        git config user.email "이메일주소"
+    
+    계정정보 확인하기
+        git config user.name
+        git config user.email
