@@ -123,3 +123,4 @@ git으로 버전관리하기
 
             push 하여 commit된 상태를 github에 업로드하기
             git push -u origin main
+            수정
