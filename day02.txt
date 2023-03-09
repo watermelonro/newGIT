@@ -111,3 +111,15 @@ git으로 버전관리하기
         2. 로컬저장소와 원격저장소 연결
             terminal 에서 
                 git remote add 원격저장소별칭 원격저장소주소
+            
+            연결완료(최초 한 번만)
+
+        평소에 깃 허브에 업로드 하는 과정
+            수정(unstage, tracked), 새롭게만든파일(unstage, untracked)
+
+            add하여 모든 수정사항 stage로 만들기
+
+            commit하여 stage에 올라간 상태를 영구저장
+
+            push 하여 commit된 상태를 github에 업로드하기
+            git push -u origin main
